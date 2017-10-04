@@ -41,7 +41,7 @@ class SclZ(bpy.types.Operator):
             else:
                 scz()
         else:
-            self.report({'WARNING'}, 'Please select one or more objects')
+            self.report({'ERROR'}, 'Please select one or more objects')
         return {"FINISHED"}
 
     def invoke(self, context, event):
@@ -56,5 +56,3 @@ def unregister():
 
 if __name__ == "__main__":
    register()
-
-
