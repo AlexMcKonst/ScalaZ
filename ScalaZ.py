@@ -6,7 +6,7 @@ bl_info = {
     "blender": (2, 79, 0),
     "location": "Mesh",
     "warning": "WIP",
-    "wiki_url": "",
+    "wiki_url": "https://blenderartists.org/forum/showthread.php?417317-Addon-MASC-this-is-a-set-of-scenarios-for-automating-routine-workflows",
     "category": "Mesh"}
 import bpy
 import os
