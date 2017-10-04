@@ -15,7 +15,6 @@ from bpy.types import Panel, Menu, Group, GroupObjects
 from bpy import props
 from bpy.props import *
 
-#-----> """Grading of objects""
 class SclZ(bpy.types.Operator):
     """ScaleZ"""
     bl_idname = "scene.sclz"
